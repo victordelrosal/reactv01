@@ -16,9 +16,9 @@ function App() {
   const handleSubmit = async () => {
     try {
       const result = await openai.Completion.create({
-        engine: 'davinci-codex',
+        engine: 'text-davinci-003',
         prompt: inputText,
-        max_tokens: 50,
+        max_tokens: 100,
         n: 1,
         stop: null,
         temperature: 1,
