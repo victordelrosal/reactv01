@@ -34,27 +34,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Simple Chatbot with OpenAI</h1>
-
-        <textarea
-          value={inputText}
-          onChange={handleInputChange}
-          placeholder="Type your message here"
-          rows={4}
-          style={{ width: '80%', marginBottom: '1rem' }}
-        />
-
-        <button onClick={handleSubmit} style={{ marginBottom: '1rem' }}>
-          Send
-        </button>
-
-        {responseText && (
-          <div>
-            <h3>AI Response:</h3>
-            <p>{responseText}</p>
-          </div>
-        )}
-
+        <h1>😀</h1>
+        <h1>¿Cómo estás, Alex?</h1>
+        <h3>Muy bien, papá, de hecho, ATM! ¿Y tú?</h3>
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
